@@ -1,0 +1,30 @@
+{
+  "agreement_june_vs_api": {
+    "agreement": 0.5462184873949579,
+    "fn": 53,
+    "fp": 1,
+    "human_positive": 96,
+    "kappa": 0.21748660496833885,
+    "n": 119,
+    "precision": 0.9772727272727273,
+    "rater_positive": 44,
+    "recall": 0.4479166666666667,
+    "tn": 22,
+    "tp": 43
+  },
+  "api_share": 0.3697,
+  "by_route": {
+    "platform level (June selection)": {
+      "api_share": 0.43,
+      "june_share": 0.903,
+      "n": 93
+    },
+    "title cue": {
+      "api_share": 0.154,
+      "june_share": 0.462,
+      "n": 26
+    }
+  },
+  "june_share": 0.8067,
+  "n": 119
+}

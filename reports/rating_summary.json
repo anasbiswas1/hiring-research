@@ -1,0 +1,40 @@
+{
+  "calls": 3623,
+  "input_tokens": 2027255,
+  "model": "claude-sonnet-5-5",
+  "output_tokens": 14728,
+  "prompt_version": "rubric-v1",
+  "served_models": [
+    "claude-sonnet-5-5"
+  ],
+  "share_by_year_route_in_pool": {
+    "2019|title cue": {
+      "n": 46,
+      "share": 0.5
+    },
+    "2024|platform level": {
+      "n": 500,
+      "share": 0.336
+    },
+    "2024|title cue": {
+      "n": 141,
+      "share": 0.156
+    },
+    "2026|platform level": {
+      "n": 499,
+      "share": 0.3968
+    },
+    "2026|title cue": {
+      "n": 500,
+      "share": 0.162
+    }
+  },
+  "stability": {
+    "n_malformed": 8,
+    "n_rated": 1781,
+    "n_tie_broken": 45,
+    "n_with_two_passes": 1748,
+    "pass_agreement": 0.9839816933638444
+  },
+  "usd_at_list_price": 4.202
+}

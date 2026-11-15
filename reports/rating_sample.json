@@ -1,0 +1,36 @@
+{
+  "cap_per_stratum": 500,
+  "seed": 7,
+  "strata": [
+    {
+      "N": 46,
+      "rated": 46,
+      "route": "title cue",
+      "year": 2019
+    },
+    {
+      "N": 692,
+      "rated": 500,
+      "route": "platform level",
+      "year": 2024
+    },
+    {
+      "N": 141,
+      "rated": 141,
+      "route": "title cue",
+      "year": 2024
+    },
+    {
+      "N": 4249,
+      "rated": 500,
+      "route": "platform level",
+      "year": 2026
+    },
+    {
+      "N": 1462,
+      "rated": 500,
+      "route": "title cue",
+      "year": 2026
+    }
+  ]
+}
