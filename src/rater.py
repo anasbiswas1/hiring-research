@@ -1,7 +1,8 @@
 """The senior-responsibility rater.
 
 One advertisement in, one word out (YES or NO), judged against the six-part
-rubric of the paper (Table I). The model is the measuring instrument, so the
+rubric of the paper (Table I) with the reading rules fixed after the human
+adjudication of the validation set (rubric-v2). The model is the measuring instrument, so the
 prompt text below is fixed and versioned, every call is cached on disk by
 (model, prompt version, advertisement id, pass), and the model string the API
 actually served is recorded with each verdict.
@@ -24,7 +25,7 @@ import pandas as pd
 from ads import OPENING_CHARS, opening
 
 MODEL = "claude-sonnet-5-5"
-PROMPT_VERSION = "rubric-v1"
+PROMPT_VERSION = "rubric-v2"
 MAX_TOKENS = 8
 
 # Base prices per million tokens (input, output) used only for the spend projection.
@@ -48,13 +49,27 @@ RUBRIC = (
     "6. Autonomy: work independently with minimal supervision."
 )
 
+RULES = (
+    "Rules for reading the six items:\n"
+    "- Item 5 counts only when the advertisement makes the candidate responsible for the design or "
+    "architecture of a system, solution or platform. A generic list of lifecycle verbs such as "
+    "'design, develop, test and maintain' or 'design, analyze and build software systems' does not count.\n"
+    "- Item 6 counts only when the advertisement says the candidate will work independently or with "
+    "minimal supervision; 'self-motivated' or 'proactive' alone does not count.\n"
+    "- Item 4 counts only when the candidate is asked to manage, influence or directly engage "
+    "stakeholders, clients or business leaders; routine collaboration with teammates, product owners "
+    "or testers does not count.\n"
+    "- Items 1 to 3 count only when the advertisement assigns that responsibility to the candidate.\n"
+    "- A description of what the company, the team or its engineers in general do is not a "
+    "responsibility asked of the candidate. Years of experience or skills required are not responsibilities."
+)
+
 QUESTION = (
     "Does this advertisement ask the candidate to take on at least one responsibility "
     "ordinarily expected of more senior staff? Count only the six responsibilities below.\n\n"
-    f"{RUBRIC}\n\n"
-    "Judge what the advertisement asks the candidate to do, not what the company does or "
-    "what the team as a whole does. Answer YES if the advertisement asks the candidate for at "
-    "least one of the six responsibilities, otherwise answer NO.\n\n"
+    f"{RUBRIC}\n\n{RULES}\n\n"
+    "Judge what the advertisement asks the candidate to do. Answer YES if the advertisement asks the "
+    "candidate for at least one of the six responsibilities under these rules, otherwise answer NO.\n\n"
 )
 
 
