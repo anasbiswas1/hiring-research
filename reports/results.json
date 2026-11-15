@@ -1,0 +1,149 @@
+{
+  "duplication": [
+    {
+      "dup_rate": 0.326,
+      "largest_template": 12,
+      "n_ads": 46,
+      "n_templates": 31,
+      "top_template_share": 0.261,
+      "year": 2019
+    },
+    {
+      "dup_rate": 0.025,
+      "largest_template": 3,
+      "n_ads": 641,
+      "n_templates": 625,
+      "top_template_share": 0.005,
+      "year": 2024
+    },
+    {
+      "dup_rate": 0.048,
+      "largest_template": 7,
+      "n_ads": 999,
+      "n_templates": 951,
+      "top_template_share": 0.007,
+      "year": 2026
+    }
+  ],
+  "settings": {
+    "model": "claude-sonnet-5-5",
+    "n_boot": 20000,
+    "seed": 7,
+    "threshold": 0.85
+  },
+  "strata": {
+    "2019|title cue": {
+      "cluster_ci": [
+        0.16116431451612914,
+        0.7222435897435878
+      ],
+      "design_effect": 4.241878131385744,
+      "effective_n": 10.844253082059348,
+      "n_ads": 46,
+      "n_templates": 31,
+      "point": 0.5
+    },
+    "2024|platform level": {
+      "cluster_ci": [
+        0.2933070866141732,
+        0.3787575150300601
+      ],
+      "design_effect": 1.0403268533786374,
+      "effective_n": 480.6181810804609,
+      "n_ads": 500,
+      "n_templates": 488,
+      "point": 0.336
+    },
+    "2024|title cue": {
+      "cluster_ci": [
+        0.09859154929577464,
+        0.21830985915492956
+      ],
+      "design_effect": 1.0052947843365678,
+      "effective_n": 140.25736748753874,
+      "n_ads": 141,
+      "n_templates": 137,
+      "point": 0.15602836879432624
+    },
+    "2026|platform level": {
+      "cluster_ci": [
+        0.35236170357778596,
+        0.4413563979029047
+      ],
+      "design_effect": 1.0936582325415796,
+      "effective_n": 456.26685298236316,
+      "n_ads": 499,
+      "n_templates": 481,
+      "point": 0.3967935871743487
+    },
+    "2026|title cue": {
+      "cluster_ci": [
+        0.12815267582287473,
+        0.19712598704529133
+      ],
+      "design_effect": 1.140875817276914,
+      "effective_n": 438.2597934220563,
+      "n_ads": 500,
+      "n_templates": 471,
+      "point": 0.162
+    }
+  },
+  "trend_all_routes_unweighted": {
+    "ok": true,
+    "or_ci": [
+      0.7920104544958672,
+      1.029905619538554
+    ],
+    "or_per_year": 0.9031589106124004,
+    "p_value": 0.12846655630482628
+  },
+  "trend_title_cue": {
+    "ok": true,
+    "or_ci": [
+      0.6729715124049717,
+      0.9605826767214839
+    ],
+    "or_per_year": 0.8040178957854565,
+    "p_value": 0.016262168575249855
+  },
+  "years": {
+    "2019": {
+      "cluster_ci": [
+        0.16116431451612914,
+        0.7222435897435878
+      ],
+      "n_ads": 46,
+      "n_templates": 31,
+      "point": 0.5,
+      "weights": {
+        "title cue": 1.0
+      }
+    },
+    "2024": {
+      "cluster_ci": [
+        0.2692844134612602,
+        0.34273363358250397
+      ],
+      "n_ads": 641,
+      "n_templates": 625,
+      "point": 0.30553661464585835,
+      "weights": {
+        "platform level": 0.8307322929171669,
+        "title cue": 0.16926770708283315
+      }
+    },
+    "2026": {
+      "cluster_ci": [
+        0.30242134431586787,
+        0.37143540231704364
+      ],
+      "n_ads": 999,
+      "n_templates": 951,
+      "point": 0.3366870866579946,
+      "weights": {
+        "platform level": 0.7440028016109262,
+        "title cue": 0.2559971983890737
+      }
+    }
+  }
+}
