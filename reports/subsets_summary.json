@@ -1,0 +1,59 @@
+{
+  "2024_june_sample": {
+    "june_rows": 120,
+    "june_senior_share": 0.8067,
+    "not_software_titles": [
+      "Azure Devops Support Engineer",
+      "IIS MIDDLEWARE/WINFORMS/AZURE DEVOPS ADMIN",
+      "Software Engineering Tools DevOps Administrator - (cloud environments - TS/SC clearance)"
+    ],
+    "senior_cue_titles": [
+      ".NET Web Developer III",
+      "Application Developer Supervisor - HYBRID",
+      "Application Developer/Mgr.- Informatica/ETL",
+      "Guidewire Software Engineer - Mid Level",
+      "Lead Software Engineer, Backend, International Solutions",
+      "Oracle Application Developer- Mid-Level",
+      "Senior .NET DevOps Engineer - NBC Sports Next",
+      "Senior Associate Application Engineer (Full Stack)",
+      "Senior DevOps Engineer",
+      "Senior Full Stack Engineer",
+      "Senior Full-Stack Engineer, Credit Inventory",
+      "Senior Programmer Analyst, Insight Analytics",
+      "Senior Software Engineer (Mobile), Bitkey",
+      "Software Engineer III R-1833898",
+      "Software Engineer III R-1849459",
+      "Staff UI Software Engineer",
+      "Teamlead Frontend Engineer (M/F/D)"
+    ],
+    "unique": 119
+  },
+  "june_2026_subset": {
+    "dropped_not_software": [
+      "Associate Software Engineer In Test",
+      "Associate Software Engineer in Test",
+      "Junior Quality Engineer en SDE",
+      "Junior Software Engineer in Test",
+      "QA Engineer & Frontend Developer",
+      "Software Developer / DevOps Engineer / QA Engineer",
+      "Software Engineering Project Manager"
+    ],
+    "dropped_senior_cue": [
+      "Senior / Software Engineer"
+    ],
+    "june_rows": 64,
+    "kept": 56,
+    "kept_title_cue": 41,
+    "unique": 64
+  },
+  "junior_2019": {
+    "dropped_not_software": [],
+    "dropped_senior_cue": [
+      "Python Software Engineer - Front Office Athena - Commodities - Associate / VP"
+    ],
+    "june_rows": 47,
+    "kept": 46,
+    "kept_title_cue": 46,
+    "unique": 47
+  }
+}

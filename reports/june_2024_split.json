@@ -1,0 +1,22 @@
+{
+  "all": {
+    "n": 119,
+    "share": 0.807
+  },
+  "rule_kept": {
+    "n": 99,
+    "share": 0.768
+  },
+  "rule_kept_platform_level_only": {
+    "n": 74,
+    "share": 0.878
+  },
+  "rule_kept_title_cue": {
+    "n": 25,
+    "share": 0.44
+  },
+  "senior_cue_in_title": {
+    "n": 17,
+    "share": 1.0
+  }
+}

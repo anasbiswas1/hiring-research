@@ -1,0 +1,11 @@
+anthropic
+pandas
+numpy
+scipy
+statsmodels
+datasketch
+matplotlib
+openpyxl
+kaggle
+pytest
+nbformat

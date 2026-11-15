@@ -1,0 +1,19 @@
+# raw downloads, advertisement text, caches, labelling sheet
+data/
+uploads/
+external/
+
+# secrets, never commit
+.secrets/
+*.env
+.git-credentials
+kaggle.json
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# os
+.DS_Store
