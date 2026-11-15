@@ -1,0 +1,15 @@
+{
+  "agreement": 0.5434782608695652,
+  "block": "Monster2019",
+  "fn": 0,
+  "fp": 21,
+  "human_positive": 2,
+  "kappa": 0.08695652173913038,
+  "model": "claude-sonnet-5-5",
+  "n": 46,
+  "precision": 0.08695652173913043,
+  "rater_positive": 23,
+  "recall": 1.0,
+  "tn": 23,
+  "tp": 2
+}

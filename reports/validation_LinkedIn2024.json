@@ -1,0 +1,15 @@
+{
+  "agreement": 0.85,
+  "block": "LinkedIn2024",
+  "fn": 0,
+  "fp": 6,
+  "human_positive": 14,
+  "kappa": 0.7,
+  "model": "claude-sonnet-5-5",
+  "n": 40,
+  "precision": 0.7,
+  "rater_positive": 20,
+  "recall": 1.0,
+  "tn": 20,
+  "tp": 14
+}
