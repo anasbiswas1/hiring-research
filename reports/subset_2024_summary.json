@@ -1,0 +1,60 @@
+{
+  "expected_rows": 123849,
+  "june_sample_in_pool": 99,
+  "june_sample_n": 119,
+  "june_sample_not_in_pool_reasons": {
+    "not a software-development title": 3,
+    "senior cue in title": 17
+  },
+  "level": {
+    "": 50,
+    "Associate": 171,
+    "Entry level": 574,
+    "Internship": 26,
+    "Mid-Senior level": 12
+  },
+  "pool_size": 833,
+  "route": {
+    "platform level": 692,
+    "title cue": 62,
+    "title cue and platform level": 79
+  },
+  "rows": 123849,
+  "selection_counts": {
+    "dropped_for_senior_cue": 95,
+    "rows": 123849,
+    "selected": 884,
+    "software_and_junior_cue": 158,
+    "software_and_junior_either": 979,
+    "software_and_junior_level": 904,
+    "software_title": 4795
+  },
+  "source_file": "data/raw/linkedin_2024/postings.csv",
+  "top_titles": {
+    ".Net Developer": 5,
+    "Application Developer": 6,
+    "Application Engineer": 13,
+    "DevOps Engineer": 9,
+    "Developer": 21,
+    "ETL Developer": 6,
+    "Embedded Software Engineer": 10,
+    "Front End Developer": 5,
+    "Full Stack Developer": 5,
+    "Full Stack Engineer": 7,
+    "Java Developer": 18,
+    "Junior Java Developer": 4,
+    "Junior Software Engineer": 4,
+    "Quantitative Developer": 4,
+    "React Developer": 4,
+    "Sales Application Engineer": 4,
+    "Salesforce Developer": 4,
+    "Site Reliability Engineer": 8,
+    "Software Developer": 13,
+    "Software Development Engineer": 4,
+    "Software Engineer": 55,
+    "Software Engineer I": 5,
+    "Software Engineer II": 6,
+    "Software Engineer Intern": 8,
+    "Software Engineering Intern": 4
+  }
+}

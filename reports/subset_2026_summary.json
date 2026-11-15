@@ -1,0 +1,72 @@
+{
+  "columns_used": {
+    "date": "date_posted",
+    "desc": "description",
+    "id": "uid",
+    "level": "job_level",
+    "title": "title"
+  },
+  "date_range": [
+    "2026-03-19 00:00:00+00:00",
+    "2026-04-17 00:00:00+00:00"
+  ],
+  "expected_rows": null,
+  "june_subset_in_pool": 2,
+  "june_subset_n": 56,
+  "june_subset_not_in_pool_reasons": {
+    "no title cue and platform level not junior (or text differs)": 14,
+    "title passes the rule but the advertisement text was not matched": 40
+  },
+  "level": {
+    "associate": 874,
+    "director": 3,
+    "entry level": 3998,
+    "internship": 518,
+    "mid-senior level": 149,
+    "not applicable": 169
+  },
+  "pool_size": 5711,
+  "route": {
+    "platform level": 4249,
+    "title cue": 321,
+    "title cue and platform level": 1141
+  },
+  "rows": 363060,
+  "selection_counts": {
+    "dropped_for_senior_cue": 1798,
+    "rows": 363060,
+    "selected": 10645,
+    "software_and_junior_cue": 2400,
+    "software_and_junior_either": 12443,
+    "software_and_junior_level": 11736,
+    "software_title": 49161
+  },
+  "source_file": "zenodo:20321172/scraped_postings.parquet",
+  "top_titles": {
+    "Android Developer": 32,
+    "Application Engineer": 44,
+    "Applications Engineer": 19,
+    "Associate Software Engineer": 48,
+    "DevOps Engineer": 78,
+    "Embedded Software Engineer": 56,
+    "Entry Level Software Developer": 12,
+    "Frontend Developer": 13,
+    "Full Stack Developer": 34,
+    "Full Stack Engineer": 64,
+    "Full Stack Software Engineer": 12,
+    "Java Developer": 40,
+    "Java Full Stack Developer": 27,
+    "Java Software Engineer": 23,
+    "Junior Software Engineer": 72,
+    "Site Reliability Engineer": 27,
+    "Software Developer": 71,
+    "Software Development Engineer": 28,
+    "Software Engineer": 508,
+    "Software Engineer 1": 18,
+    "Software Engineer I": 64,
+    "Software Engineer II": 63,
+    "Software Engineer Intern": 52,
+    "Web Developer": 19,
+    "iOS Developer": 19
+  }
+}
